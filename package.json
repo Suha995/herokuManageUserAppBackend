@@ -1,0 +1,28 @@
+{
+  "name": "Exercise-513-BE-ADV-createAnAPIWithMongoDBDriver",
+  "version": "1.0.0",
+  "description": "Create two projects, (1) a backend that exposes CRUD endpoints to retreive, add, update and delete information from a JSON file, and (2) a create-react-app which uses each endpoint so that the user can manage the information in MongoDB from the frontend.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon backend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-D01/Exercise-513-BE-ADV-createAnAPIWithMongoDBDriver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-D01/Exercise-513-BE-ADV-createAnAPIWithMongoDBDriver/issues"
+  },
+  "homepage": "https://github.com/FbW-D01/Exercise-513-BE-ADV-createAnAPIWithMongoDBDriver#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4"
+  }
+}

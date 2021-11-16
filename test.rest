@@ -1,4 +1,4 @@
-@url = http://localhost:3022
+@url = http://localhost:3016
 
 
 ### show all users
@@ -17,7 +17,7 @@ content-type: application/json
  
 {
     "user": {
-        "name": "Angie Additive",
+        "name": "lamis Additive",
         "username": "angie_additive",
         "email": "angie@hotmail.com"
     }

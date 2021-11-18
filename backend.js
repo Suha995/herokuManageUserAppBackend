@@ -9,14 +9,14 @@ const port = process.env.PORT || 3016;
 const mongoConnectString = process.env.MONGODB_URI;
 const client = new MongoClient(mongoConnectString);
 
-app.use(express.json()); // that was body parser
+app.use(express.json()); 
 app.use(cors());
 
 
-const execMongo = async (done) => { // i write it as an external function because it is reusable
+const execMongo = async (done) => { 
   await client.connect();
   const db = client.db("api001");
-  done(db); // i don't write done as an external function because i need it only once 
+  done(db);
   
 };
 
